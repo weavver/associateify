@@ -1,8 +1,8 @@
 // license: MIT
-// github: https://github.com/weavver/associateify
+// www: https://github.com/weavver/associateify
 // author: Mitchel Constantin - Weavver, Inc.
 
-var associateId = "youraffiliateTag";
+var associateId = "youraffiliatetag-20";
 var tipPercent = 5; // 5% of links
 
 $(document).ready(function () {
@@ -21,7 +21,7 @@ function tagLinks() {
           var rndNum = Math.floor((Math.random() * 100) + 1);
           var tagId = (rndNum <= tipPercent) ? tipId : associateId;
           var href = $(this).attr('href');
-          // to be polite we check that nobody else tagged amazon before us, that we we don't "steal" their referral
+          // to be polite we check that nobody else tagged amazon before us, that way we don't "steal" their referral
           if (!href.match(/tag=/)) {
                if (href.match(/\?/)) {
                     href = href + "&tag=" + tagId;
