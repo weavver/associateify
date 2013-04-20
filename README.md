@@ -1,5 +1,6 @@
 associateify
 ============
+License: MIT
 
 Automatically adds your affiliate id to Amazon.com links on your website
 
@@ -21,6 +22,6 @@ Please consider leaving the "tip" percent above 0 for using this code.. :)
 
 If you want help or support feel free to e-mail me:
 
-Mitchel Constantin
-mythicalbox@weavver.com
-Weavver, Inc.
+Mitchel Constantin 
+mythicalbox@weavver.com 
+Weavver, Inc. 
