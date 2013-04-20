@@ -7,7 +7,7 @@ $(document).ready(function () {
 });
 
 function tagLinks() {
-     var tipId = "weainc-20";
+     var tipId = "associateify-20";
 
      $matchedlinks = $('a')
           .filter(function () {
