@@ -1,3 +1,6 @@
+// license: MIT
+// github: https://github.com/weavver/associateify
+// author: Mitchel Constantin - Weavver, Inc.
 
 var associateId = "youraffiliateTag";
 var tipPercent = 5; // 5% of links
